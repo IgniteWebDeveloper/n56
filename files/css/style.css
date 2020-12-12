@@ -47,9 +47,38 @@ html,body{
 }
 
 .post{
+    position: relative;
     width: 700px;
     min-height: 100px;
     background-color: #eeee;
     margin-bottom: 20px;
     border-radius: 6px;
+}
+
+#icons{
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#icons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+#icons i:nth-child(1){
+    background-color: rgb(255, 166, 0);
+}
+
+#icons i:nth-child(2){
+    background-color: rgb(255, 69, 69);
+    color: #fff;
 }
